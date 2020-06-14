@@ -76,6 +76,7 @@ if(isset($_POST['pesquisa'])){
 				echo('<p>Produz Leite: '); echo $produz_leite; ('</p>');
 				echo('</br>');
 				echo('<a href="index.php?pg=editar&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-primary btn-sm">Editar</button></a> ');
+				echo('<a href="index.php?pg=exame&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-warning btn-sm">Exame</button></a> ');
 				echo('<a href="index.php?pg=excluir&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-danger btn-sm">Excluir</button></a> ');
 				echo('</br></br>');
 			}
@@ -113,6 +114,7 @@ if(isset($_POST['total'])){
 			echo('<p>Produz Leite: '); echo $produz_leite; ('</p>');
 			echo('</br>');
 			echo('<a href="index.php?pg=editar&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-primary btn-sm">Editar</button></a> ');
+			echo('<a href="index.php?pg=exame&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-warning btn-sm">Exame</button></a> ');
 			echo('<a href="index.php?pg=excluir&brinco=');echo $brinco; echo('"><button type="button" class="btn btn-danger btn-sm">Excluir</button></a> ');
 			echo('</br></br>');
 		}		
